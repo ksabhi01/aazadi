@@ -1,0 +1,612 @@
+header{
+            background: #F2E8E6;
+            height: 60vh;
+			position: relative;
+        }
+
+        .back-to-top{
+            z-index: 10;
+            position: fixed;
+            right: 5%;
+            bottom: 6%;
+            background: black;
+            color: white;
+            padding: 14px;
+            cursor: pointer;
+            /* top: 91%; */
+            border-radius: 50%;
+        }
+
+        nav{
+            background: #F2E8E6;
+        }
+        a{
+            background: #F2E8E6;
+            color: black;
+        }
+
+        a:hover{
+            text-decoration: none;
+            color: black;
+        }
+
+         .tw, .in{
+            background: black;
+            border-radius: 50%;
+            color: white;
+            margin-right: 0.2rem;
+            padding: 11px;
+            width: 37px;
+            height: 37px;
+        }
+
+        .fb{
+            background: black;
+            border-radius: 50%;
+            color: white;
+            margin-right: 0.2rem;
+            width: 37px;
+            height: 37px;
+            /* padding-left: 226px; */
+            padding: 11px;
+        }
+
+        #nav-search input[type="text"]{
+            width: 80%;
+            border: none;
+            height: 33px;
+        }
+
+        #nav-search{
+            width: 16%;
+        }
+
+        button{
+            background: white;
+            border: none;
+            /* padding: 3px; */
+            height: 34px;
+            width: 34px;
+                }
+
+        .logo{
+            margin-right: 32%;
+            
+			
+        } 
+		
+		#logo{
+			width: 4rem;
+		}
+
+        #social-link{
+            width: 13%;
+        }    
+
+		#header-image{
+			background:url("./media/BannerImage-4.jpg");
+		    width: 74vh;
+			height: 54vh;
+			background-position: center;
+			background-size: cover;
+			position: absolute;
+			top: 34%;
+			left: 10%;
+			display: block;
+			
+		}
+		
+		#independance{
+			background: white;
+			width: 22vw;
+			height: 8vh;
+			position: absolute;
+			left: 83%;
+			top: 19%;
+		}
+		
+		#independance h1{
+			    font-size: 1.7rem;
+				padding: 14px;
+				font-weight: 700;
+		}
+		
+		#day{
+			background: white;
+			width: 18vw;
+			height: 8vh;
+			position: absolute;
+			left: 87%;
+			top: 38%;
+		}
+		
+		#day h1{
+			font-size: 1.7rem;
+			padding: 14px;
+			font-weight: 700;
+			margin-left: 10px;
+		}
+		
+		#countdown{
+			position:absolute;
+			right: 10%;
+			top: 110%;
+		}
+		
+		#countdown li {
+		  display: inline-block;
+		  font-size: 1em;
+		  list-style-type: none;
+		  padding: 1em;
+		  text-transform: uppercase;
+		  background:white;
+		}
+
+		#countdown li span {
+		  display: block;
+		  font-size: 3.5rem;
+		  
+		}
+
+		#countdown ul{
+			    background: #FE8B1B;
+				width: 66vh;
+				height: 28vh;
+				padding: 38px;
+				color: black;
+		}
+		
+		/* #opacity{
+			background:rgba(0,0,0,0.7);
+			height: 60vh;
+			display: none;
+		} */
+		
+
+        .footer_container{
+            background: #F2E8E6;
+            /* margin-top: 50%; */
+            width: 99.9vw;
+        }
+
+        li{
+            list-style-type: none;
+        }
+
+        .social-nav-bottom li{
+            display: inline-block;
+        }
+
+        .footer-info{
+            text-align: center;
+            width: 100%;
+        }
+
+		#aboutIndependance{
+			background:#F2E8E6;
+			height: 70vh;
+			margin-top: 19%;
+			position: relative;
+		}
+		
+		#aboutImage{
+			background:url("./media/img-1.jpg");
+		    width: 70vh;
+			height: 58vh;
+			background-position: center;
+			background-size: cover;
+			position: absolute;
+			top: 38%;
+			left: 12%;
+		}
+		
+		#aboutText{
+			width: 57vh;
+			height: 58vh;
+			background: white;
+			position: absolute;
+			right: 12%;
+			top: 5%;
+		}
+		
+		#aboutText h1{
+			font-size: 1.8rem;
+			padding: 14px;
+			font-weight: 700;
+		}
+		
+		#aboutText p{
+			font-size: 1.1rem;
+			padding: 33px;
+		}
+		
+		#aboutText button{
+			    width: 22vh;
+				height: 7vh;
+				background: black;
+				color: white;
+				font-weight: 700;
+				font-size: 1.1rem;
+				bottom: 6%;
+				left: 5%;
+				position: absolute;
+			}
+			
+		.details{
+			margin-top: 14%;
+			width: 100%;
+		}
+
+		.details h1{
+			text-align: center;
+			font-weight: 700;
+			font-size: 2.9rem;
+		}
+		
+		.programCard{
+			width: 100%;
+			height: 54vh;
+		}
+		
+		.innerCards{
+			margin-top:9%;	
+		}
+		
+		#hosting{
+				width: 22vh;
+				height: 7vh;
+				background: #FE8B1B;
+				color: white;
+				font-weight: 700;
+				font-size: 1.1rem;
+				bottom: -6%;
+				left: 29%;
+				position: absolute;
+			
+		}
+		
+		#parade{
+				width: 22vh;
+				height: 7vh;
+				background: #FE8B1B;
+				color: white;
+				font-weight: 700;
+				font-size: 1.1rem;
+				bottom: -6%;
+				left: 29%;
+				position: absolute;	
+		}
+		
+		#speech{
+				width: 22vh;
+				height: 7vh;
+				background: #FE8B1B;
+				color: white;
+				font-weight: 700;
+				font-size: 1.1rem;
+				bottom: -6%;
+				left: 29%;
+				position: absolute;		
+		}
+		
+		.clear{
+			clear: both;
+		}
+		
+		.carousel-indicators li{
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+		}
+		
+		.carousel-inner{
+			height: 60vh;
+		}
+		
+		.carousel-item img{
+			height: 60vh;
+		}
+		
+		.slider{
+			margin-top: 1%;
+		}
+		
+		.contriolls{
+			    color: black;
+				height: 51px;
+				width: 52px;
+				top: 45%;
+				background: black;
+			}
+		.newsletter{
+			padding: 36px;
+			width: 100%;
+		}
+		
+		#subscribe{
+			width: 63%;
+			height: 6vh;
+		}
+		
+		#subscribe-btn{
+			height: 6vh;
+			width: 14vh;
+			background: black;
+			color: white;
+			border: none;
+		}
+
+		.footer_container{
+			padding: 90px;
+		}
+		
+		.copy-right{
+			margin-top: 51px;
+			border-top: 1px solid;
+		}
+		
+		
+		#ticket-form {
+				width: 40vw;
+				margin: 20px auto;
+				padding: 20px;
+				margin: 1%;
+				margin-bottom: 6%;
+				margin-right: 9%;
+				
+			}
+			#thanks{
+				display : none;
+				text-align: center;
+				width : 40vw;
+				margin: 20px auto;
+				border : 1px solid black;
+				padding: 20px;
+				border-radius :10px;
+			}
+			#conname{
+				font-weight: bold;
+				font-size : 3rem;
+				color: rgb(30,30,30);
+			}
+			.meet{
+				font-size: 30px;
+			}
+			
+			#form-container{
+				background:#F2E8E6;
+				width: 40vw;
+				float: right;
+				margin: 5% 1%;
+			}
+			
+			#formsubmit{
+				width: 14vh;
+				height: 6vh;
+				background: black;
+				color: white;
+				border: none;
+			}
+			
+			#ticket-form h1{
+				color: black;
+			}
+			
+        @media (min-width: 426px ) and (max-width: 768px) {
+            #nav-search{
+                display: none;
+            }
+
+            #social-link{
+                display: none;
+            }
+			
+			#header-image{
+				display: none;
+			}
+			
+			#header{
+				background:url("./media/BannerImage-4.jpg");
+				background-position: center;
+				background-size: cover;
+			}
+			
+			#countdown{
+				right: 1%;
+				top: 29%;
+			}
+			
+			#countdown li{
+				font-size: 0.5em;
+			}
+			
+			#countdown ul{
+				width: 68vh;
+				height: 27vh;
+				padding: 29px;
+			}
+			
+			#opacity{
+				display: block;
+			}
+			
+			#aboutImage{
+				    width: 40vh;
+					height: 35vh;
+					background-position: center;
+					background-size: cover;
+					position: absolute;
+					top: 21%;
+					left: 5%;
+							}
+			#aboutText h1 {
+				font-size: 1.4rem;
+				padding: 25px;
+				font-weight: 700;
+			}	
+	
+			#aboutText p {
+				font-size: 1rem;
+				padding: 8px;
+			}
+			
+			#hosting{
+				width: 24vh;
+				left:19%;
+			}
+			
+			.contriolls{
+				top: 53%;
+			}
+			
+			#form-container{
+				margin-top: 12%;
+			}
+			
+			.slider{
+				margin-top: 8%;
+			}
+			
+			.form-group{
+				padding: 0 14px;
+			}
+				
+        }
+        @media (min-width: 376px ) and (max-width: 426px) {
+            #nav-search{
+                display: none;
+            }
+
+            #social-link{
+                display: none;
+            } 
+			
+			#header-image{
+				display: none;
+			}
+			
+			#header{
+				background:url("./media/BannerImage-4.jpg");
+				background-position: center;
+				background-size: cover;
+			}
+			
+			#countdown{
+				right: 1%;
+				top: 36%;
+			}
+			
+			#countdown li{
+				font-size: 0.5em;
+			}
+			
+			#countdown li span{
+				font-size: 2.5rem;
+			}
+			
+			#countdown ul{
+				width: 46vh;
+				height: 19vh;
+				padding: 16px;
+			}
+			
+			#opacity{
+				display: block;
+			}
+			
+			.programCard{
+				margin-top: 7%;
+				width: 64%;
+			}
+			#hosting{
+				width: 24vh;
+				left: 34%;
+			}
+			
+			#speech{
+				left: 34%;
+			}
+			
+			#parade{
+				left: 34%;
+			}
+			
+			#aboutImage{
+				top: 4%;
+				left: 33%;
+				width: 25vh;
+				height: 22vh;
+			}
+			
+			#aboutText {
+				width: 58vh;
+				height: 41vh;
+				background: white;
+				position: absolute;
+				right: 8%;
+				top: 40%;
+				/* align-items: center; */
+				text-align: center;
+			}
+			
+			#aboutText h1 {
+				font-size: 1.2rem;
+				padding: 12px;
+				font-weight: 700;
+			}
+			
+			#aboutText p{
+				font-size: 0.9rem;
+				padding: 0px;
+			}
+			
+			#aboutText button {
+			width: 22vh;
+			height: 7vh;
+			background: black;
+			color: white;
+			font-weight: 700;
+			font-size: 1.1rem;
+			bottom: 6%;
+			left: 30%;
+			/* text-align: center; */
+			/* align-items: center; */
+			position: absolute;
+				}
+				
+			.contriolls{
+				top: 36%;
+			}
+
+			#form-container{
+				margin: 15% 9%;
+				width: 70vw
+			}
+			
+			.form-group{
+				padding: 0 14px;
+			}
+			
+			.carousel-inner{
+				height: 39vh;
+			}
+			
+			.innerCards{
+				text-align: center;
+			}
+			
+			.form-control{
+				width: 36vh;
+			}
+			
+			#ticket-form h1{
+				    width: 40vh;
+					padding: 5%;
+					font-size: 2.9rem;
+					font-weight: 500;
+			}
+			
+			#thanks{
+				width: 80vw;
+			}
+        }
